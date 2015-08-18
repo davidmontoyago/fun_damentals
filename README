@@ -1,0 +1,58 @@
+Lambda Expressions
+
+- No more anonymous classes
+- Methods are now first-class citizens
+- Syntax
+- What type are Lambda expressions? 
+- Functional Interfaces (SAM Interfaces)
+- Auto-generated interfaces (double colon operator)
+- Scope & capturing lambdas
+	- "Effectively final" variables
+	- Concurrency issues
+
+Streams
+
+- Internal interation vs External iteration
+- Type of a stream
+- Intermediate operations & Terminal operations 
+	- Lazy processing
+	- Performance?
+	- Reduce operations
+- Optional - Null object pattern
+- Reuse?
+- Immutability
+- Collecting
+	- Aggregating
+	- Partitioning
+- Useful intermediate operations
+	- distinct
+	- limit
+	- map
+	- sorted
+- Useful terminal operations
+	- allMatch
+	- anyMatch
+	- noneMatch
+	- count 
+- Creating Streams
+	- Stream classes
+	- Ranges
+	- Builders	
+	- Static helpers
+		- Random class
+		- Files!
+		- Arrays
+- Parallel Programming
+	- Fork/Join framework (ForkJoinPool)
+	- "Explicit but non intrusive"
+	- Will it really improve performance?
+	- Can my code really be parallelized?
+		- Associative reduce vs Non-Associative
+ 
+Interfaces
+	- Default methods
+		- Abstract classes
+		- When to use?
+			- Mixin
+	- Multiple inheritance
+	- Static methods
